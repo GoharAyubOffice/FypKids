@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4610075006907454110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4610075006907454097}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4610075006907454097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4610075006907454110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3008, y: 0, z: -17350}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4610075007955419282}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4610075007955419283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4610075007955419282}
+  - component: {fileID: 7031003472118809291}
+  - component: {fileID: 6821537410427715562}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4610075007955419282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4610075007955419283}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4610075006907454097}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7031003472118809291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4610075007955419283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506b31a1ad0a1904db1c801a3b285160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterPrefabs:
+  - {fileID: 8326867422673234265, guid: cbf690b52a77b7542b72ada79d5cf07b, type: 3}
+  - {fileID: 471158919527928193, guid: d20784e09520ae846a4bd66e98a1b19d, type: 3}
+  spawnPoint: {fileID: 4610075006907454097}
+  coinsText: {fileID: 0}
+--- !u!114 &6821537410427715562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4610075007955419283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4235935a5bfac8b4897d774437cb3302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alphabetsToenable: {fileID: 0}
+  alphabetsManagerToEnable: {fileID: 0}
+  alphabetsManagerSoundToEnable: {fileID: 0}
+  a: {fileID: 0}
+  b: {fileID: 0}
+  c: {fileID: 0}
+  d: {fileID: 0}
+  e: {fileID: 0}
+  f: {fileID: 0}
+  g: {fileID: 0}
+  h: {fileID: 0}
+  i: {fileID: 0}
+  j: {fileID: 0}
+  k: {fileID: 0}
+  l: {fileID: 0}
+  m: {fileID: 0}
+  n: {fileID: 0}
+  o: {fileID: 0}
+  p: {fileID: 0}
+  q: {fileID: 0}
+  r: {fileID: 0}
+  s: {fileID: 0}
+  t: {fileID: 0}
+  u: {fileID: 0}
+  v: {fileID: 0}
+  w: {fileID: 0}
+  x: {fileID: 0}
+  y: {fileID: 0}
+  z: {fileID: 0}
+  numbersToEnable: {fileID: 0}
+  numbersManagerToEnable: {fileID: 0}
+  numbersManagerSoundToEnable: {fileID: 0}
+  zero: {fileID: 0}
+  one: {fileID: 0}
+  two: {fileID: 0}
+  three: {fileID: 0}
+  four: {fileID: 0}
+  five: {fileID: 0}
+  six: {fileID: 0}
+  seven: {fileID: 0}
+  eight: {fileID: 0}
+  nine: {fileID: 0}
+  shapesToEnable: {fileID: 0}
+  shapesManagerToEnable: {fileID: 0}
+  shapesManagerSoundToEnable: {fileID: 0}
+  circle: {fileID: 0}
+  square: {fileID: 0}
+  triangle: {fileID: 0}
+  rectangle: {fileID: 0}
+  conee: {fileID: 0}
+  diomand: {fileID: 0}
+  pentagonal: {fileID: 0}
+  hexagonal: {fileID: 0}
+  oval: {fileID: 0}
+  colorToEnable: {fileID: 0}
+  colorManagerToEnable: {fileID: 0}
+  colorManagerSoundToEnable: {fileID: 0}
+  green: {fileID: 0}
+  pink: {fileID: 0}
+  orange: {fileID: 0}
+  red: {fileID: 0}
+  yellow: {fileID: 0}
+  blue: {fileID: 0}
+  purple: {fileID: 0}
+  fruitToEnable: {fileID: 0}
+  fruitManagerToEnable: {fileID: 0}
+  fruitManagerSoundToEnable: {fileID: 0}
+  apple: {fileID: 0}
+  mango: {fileID: 0}
+  banana: {fileID: 0}
+  grapes: {fileID: 0}
+  orangeFruit: {fileID: 0}
+  waterMelon: {fileID: 0}
+  PineApple: {fileID: 0}
+  animalToEnable: {fileID: 0}
+  animalManagerToEnable: {fileID: 0}
+  animalManagerSoundToEnable: {fileID: 0}
+  cat: {fileID: 0}
+  monkey: {fileID: 0}
+  fish: {fileID: 0}
+  horse: {fileID: 0}
+  deer: {fileID: 0}
+  lion: {fileID: 0}
+  birdsToEnable: {fileID: 0}
+  birdsManagerToEnable: {fileID: 0}
+  birdsManagerSoundToEnable: {fileID: 0}
+  duck: {fileID: 0}
+  eagle: {fileID: 0}
+  sparrow: {fileID: 0}
+  parrot: {fileID: 0}
+  rooster: {fileID: 0}
+  toucan: {fileID: 0}
